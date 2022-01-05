@@ -68,7 +68,7 @@ class ProfileFragment : Fragment() {
         }
 
         val user = s.getUser()!!
-
+        //deklarasi
         tv_nama.text = user.name
         tv_phone.text = user.phone
         tv_email.text = user.email
